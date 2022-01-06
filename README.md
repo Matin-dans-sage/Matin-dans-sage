@@ -1,5 +1,9 @@
 # forminejs
 > form value check js
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7005dc0b-dc49-474b-9f65-34743cd088a0/deploy-status)](https://app.netlify.com/sites/forminejs/deploys)
+
 ## setting 
 
 ```sh
