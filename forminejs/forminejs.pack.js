@@ -1,25 +1,31 @@
 /**
 * forminejs v1.0
-* !need jQuery
-*
-* @author : K (https://mitw.tistory.com/)  
+* @author : mitw 
 * @version : 1.0
-* @file : forminejsJs.js  //  https://tistory1.daumcdn.net/tistory/4824283/skin/images/forminejsJs.js
-* @since : 2021-10-07
-*
-* load <script src="http://cdn.ktidc.kr/notnull/js/forminejsJs.js" data-lang="ko" type="text/javascript"></script>  -> data-lang : ko , en
-* need cover <input />  ->  example)  <label><input /></label> 
-* form => add data-forminejs-form="true"
-* input 
-*       => add data-forminejs='true'			> value exist check
-*       => add data-forminejs-minlength='3'	> min length check / param : number
-*       => add data-forminejs-maxlength='7'	> max length check / param : number
-*       => add data-forminejs-num='true'		> only number
-*		=> add data-forminejs-ko='true'		> only korean
-*		=> add data-forminejs-en='true'		> only english
-*		=> add data-forminejs-id='true'		> ID pattern : unable Special Char
-*		=> add data-forminejs-mail='true'	> Mail pattern : xxx@xxx.xxx
-* false => not checking / true => checking  
+* @file : forminejsJs.js
+* @since : 2021-12-07
+* @license : all free
+* --- GUIDE --- 
+* 1. need jQuery lib
+* 2. forminejs load  <script src="https://mitw.ml/forminejs/forminejs.pack.js" data-lang="ko" type="text/javascript"></script>
+*    -> data-lang : ko , en 
+* 3. add data-forminejs-form="true" to the form tag
+*    -> data-forminejs-form : true / false 
+* 4. cover input tag with another tag 
+*    -> example)  <label><input /></label>, <div><input /></div>
+* 5. how to use
+*    -> add data-forminejs='true'			> null check
+*    -> add data-forminejs-minlength='3'	> min length check / param : number
+*    -> add data-forminejs-maxlength='7'	> max length check / param : number
+*    -> add data-forminejs-num='true'		> only number check
+*	 -> add data-forminejs-ko='true'		> only korean check
+*	 -> add data-forminejs-en='true'		> only english check
+*	 -> add data-forminejs-id='true'		> only alphanumeric check (id pattern)
+*	 -> add data-forminejs-mail='true'		> Mail pattern check : xxx@xxx.xxx
+*    -> value of data type 
+*       => false => not checking 
+*       => true  => checking  
+*	example) <input name="name" data-forminejs='true' data-forminejs-ko="true"/>
 *
 */
 eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('$(b).5(\'d\',\'.0-2\',4(){$(1).7(\'0-2\');$(1).8().3(\'.a-6\').9()}).5(\'c\',\'.0-2\',4(){$(1).7(\'0-2\');$(1).8().3(\'.a-6\').9()});',14,14,'nn|this|effect|find|function|on|lazors|removeClass|parent|remove|forminejs|document|focusin|click'.split('|'),0,{}))
